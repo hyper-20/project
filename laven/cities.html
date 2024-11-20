@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norway</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+
+        .mx-5 {
+            margin: 0 10px;
+        }
+
+        .my-5 {
+            margin: 20px 0;
+        }
+
+        .my-10 {
+            margin: 40px 0;
+        }
+
+
+        .p-section {
+            margin: 50px 200px;
+        }
+
+
+        .d-flex {
+            display: flex;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .text-xl {
+            font-size: larger;
+        }
+
+        .border-5 {
+            border-radius: 5px;
+        }
+
+        .border-10 {
+            border-radius: 10px;
+        }
+
+        p {
+            line-height: 25px;
+            color: var(--white-50);
+        }
+
+
+        .paragraph {
+            column-count: 3;
+            column-gap: 40px;
+            column-rule: 1px solid var(--white-50);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .nav {
+            background-color: var(--primary-soft);
+            padding: 15px 20px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .nav .nav-item {
+            padding: 10px 15px;
+            text-decoration:  none;
+        }
+        
+        .hero {
+            margin-bottom: 30px;
+        }
+
+        .hero .title-box {
+            width: 100%;
+            height: 30vh;
+            background-image: url('https://images.ctfassets.net/7mmwp5vb96tc/113505/ed23398a5c2b116b13e8264cbfae1834/bergen-norway-hgr-139064_1920-photo_shutterstock.jpg?q=75&w=3840&fm=webp');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            background-repeat: no-repeat;
+            padding: 40px 0;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .content {
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          gap: 10px;
+        }
+
+        .layout-section {
+            display: flex;
+            align-items: start;
+            gap: 20px;
+            height: 600px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .photo {
+          border-radius: 5px;
+          width: 100%;
+          height: 400px;
+        }
+
+        @media screen and (max-width: 820px) {
+            .p-section {
+                margin: 20px 15px;
+            }
+
+            .paragraph {
+                column-count: 2;
+                column-gap: 25px;
+                column-rule: 1px solid var(--white-50);
+            }
+        }
+
+        .btn {
+          background-color: rgb(4, 123, 170);
+          border: none;
+          color: rgb(255, 255, 255);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+
+        
+    </style>
+</head>
+<body class="p-section bg-dark">
+
+
+    <!-- website name  -->
+    <section class="hero">
+        <div class="title-box">
+            <h1>Best cities of Norway</h1>
+            <a href="./home.html" class="btn">back </a>
+        </div>
+    </section>
+
+    <!-- content  -->
+    <section>
+
+
+        <div style="margin-bottom: 20px;">
+            <h2  style="margin-bottom: 30px;">
+                1. Oslo, Norway
+            </h2>
+            
+            <div class="d-flex justify-content-between">
+                <img class="photo" src="../assets/img/o.jpg" alt="photo">
+                <div style=" padding-left: 40px;">
+                    <p>
+                        Oslo has it all! Being Europe's fastest-growing capital and boasting impressive architectural innovations, Oslo remains one of the greenest cities. It was even named the European Green Capital for 2019 thanks to it its low carbon footprint, well-arranged transport system, sustainable development and "clean" food industry.
+
+                        Oslo is also a perfect place for active travelers: with an abundance of lavish parks, the Nordmarka ski slopes that are just moments away from the city center, and Oslofjord's waterways allow to enjoy kayaking, skiing, or hiking.
+
+                        Against Oslo's contemporary scene, there is always space reserved for the classics. Visit Nasjonalgalleriet and check out the legacy of Edward Munch, one of the most famous Norwegians of all time. New Nordic Cuisine is no exception and can be best described as reinterpreted traditional cuisine of the North defined by the exclusive use of the local produce.
+
+                        Oslo has definitely become a culinary destination in its own right, and is ready to provide its visitors with plenty of delightful choices from high-quality fusion street food to the haute menu of the most northern three-Michelin-starred restaurant in the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h2  style="margin-bottom: 30px;">
+                2. Balestrand, Norway
+            </h2>
+            
+            <div class="d-flex justify-content-between">
+                <img class="photo" src="../assets/img/norway.jpeg" alt="photo">
+                <div style=" padding-left: 40px;">
+                    <p>
+                        Among all the things to see in Norway, we can specify one of the most charming and beautiful villages, Balestrand, that's located in the northern part of the largest and deepest fjord in Norway, Sognefjord. This charming village is easily reachable from Flam by express boat and offers spectacular views from its highest peaks.
+
+                        To make your Norway tour unforgettable, you can visit the unique aquarium that covers an area of 700 m2 and is beautifully placed right at the marine in the Sognefjord. If you have one free day in Balestrand and would like to fill it with something unusual to see and do, we definitely would recommend a day trip to the Briksdal Glacier which is one of the most famous glaciers in the world!
+
+                        Despite the fact that Balestrand is pretty small, it's considered as one of the best places to go in Norway. It's impossible not to fall in love with its fascinating landscapes, charming houses, and peaceful atmosphere. Balestrand also offers a large variety of outdoor activities, such as hiking and biking, which are especially memorable when done by the impressive fjords.
+
+                        As for the attractions to add to your Balestrand itinerary, consider including St. Olaf's Church and having a look (or maybe even staying) at the Kviknes Hotel that was built in the 19th century, offering dazzling vistas of the neighboring Sognefjord.
+
+                        To find additional destinations to spice up your itinerary we recommend to use Norway trip planner which allows you to build your journey program according to your own tastes and preferences
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 20px;"></div>
+            <h2  style="margin-bottom: 30px;">
+                3. Alesund, Norway
+            </h2>
+            
+            <div class="d-flex justify-content-between">
+                <img class="photo" src="../assets/img/norwaya.jpg" alt="photo">
+                <div style=" padding-left: 40px;">
+                    <p>
+                        As the evening sun leaves the horizon, Alesund appears in all its beauty. Street lights and warm lighting in the houses softly reflect from the water, creating that famous charming Norwegian atmosphere. Hidden between Norway's breathtaking fjords, Alesund, the city of colorful houses, is no fewer winsome during the day. Norwegian people have chosen it as the most beautiful town in Norway and call it the Adventure Capital of the Fjords. The image of the several islands placed around Alesund with the spectacular Sunnmore Mountains as a background is especially fabulous as well.
+
+                        The town itself is pretty young because of the tragic story which happened at the beginning of the 20th century. A destroying fire erupted on the streets of Alesund, 16 hours later the whole city center was burned to the ground with only 230 houses left, leaving literally thousands of people homeless. In three years, the town was completely rebuilt with an exceptional contribution of its citizens.
+
+                        Now Alesund is famous for its Art Nouveau architecture and is a member of the "Reseau Art Nouveau Network", a European network of Art Nouveau cities. Make sure to include an Alesund itinerary to your plan of Scandinavia tours and take advantage of seeing its atmospheric buildings and breathtaking landscapes.
+
+                        In addition, make sure to have a proper Alesund tour and don't miss the chance to see this charming place from a completely different perspective, including Norway fjord boat tours that are available all year to your travel plans.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 20px;"></div>
+            <h2  style="margin-bottom: 30px;">
+                4. Svalbard, Norway
+            </h2>
+            
+            <div class="d-flex justify-content-between">
+                <img class="photo" src="../assets/img/norways.jpg" alt="photo">
+                <div style=" padding-left: 40px;">
+                    <p>
+                       It's difficult to find a better place than Svalbard to meet the wild nature and explore hidden places in Norway. Located between the mainland and the North Pole, Svalbard is one of the most famous points for travelers all over the world for Northern Norway tours. The largest islands in the area are Spitsbergen, Nordaustlandet, and Edgeoya.
+
+Often called the land of frozen fjords, Svalbard boasts sparkling glaciers and ice-cold mountains, all making for a perfect place for those who are looking for the wildlife of the Arctic. It is the best place in Norway for spotting polar bears, Arctic foxes, and a wide population of seabirds. The Svalbard community has as little as 2700 people, which, according to some last research, is less than the local population of polar bears!
+
+During your Svalbard trip, you also have the unique chance to see the beauty of ice-crystal landscapes and to seek the Northern Lights, the particular natural phenomenon that is possible to be seen even during the day in this region.
+
+To make your Norway winter travel fully comprehensive and cover more places around, make sure to visit the biggest city, Longyearbyen, which has a range of local places for eating and cultural exploration. Nearby you can also visit Longyearbyen, Sveagruva, Ny-Alesund, and Barentsburg, which are also charming places to travel to while you're in this part of Norway.
+
+Despite the fact that Svalbard means "cold coasts" (and this is really one of the most impressive frozen lands in Norway), you can warm up with the charming and benevolent atmosphere, inspired by the beauty around!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

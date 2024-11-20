@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest Nest</title>
+    <link rel="icon" href="./assets/img/logo.png">
+
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+    <script src="./assets/js/tailwind.js"></script>
+</head>
+<body>
+    <!-- navbar  -->
+
+    <header class="nav-bg z-20 absolute top-0 w-full">
+      <nav class="container lg:px-40  mx-auto flex items-center justify-between flex-wrap p-6">
+          <div class="flex items-center flex-shrink-0 text-white mr-6">
+            
+            <span class="font-medium text-2xl tracking-tight">Nest Nest</span>
+
+          </div>
+
+          <!-- mobile menu  -->
+          <div class="md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>            
+          </div>
+
+          <div class="hidden md:block">
+            <div class="relative lg:flex items-center ml-auto">
+              <nav class="text-sm leading-6 font-medium text-slate-700 dark:text-slate-200">
+                <ul class="flex md:space-x-8 flex-col md:flex-row py-5 px-4 my-4 rounded-lg md:py-0 md:my-0 md:px-0 bg-slate-900 md:bg-transparent">
+                  <li>
+                    <a href="./index.html" class="hover:text-sky-500 md:py-0 py-3 block md:inline-block bg-cyan-600 rounded-md md:bg-transparent px-6 md:px-0">Home</a>
+                  </li>
+                  <li>
+                    <a href="./destinations.html" class="text-sky-500  md:py-0 py-3 block md:inline-block rounded-md md:bg-transparent px-6 md:px-0">Destinations</a>
+                  </li>
+                  <li>
+                    <a href="./about.html" class="hover:text-sky-500  md:py-0 py-3 block md:inline-block rounded-md md:bg-transparent px-6 md:px-0">Members</a>
+                  </li>
+                  <li>
+                    <a class="hover:text-sky-500  md:py-0 py-3 block md:inline-block rounded-md md:bg-transparent px-6 md:px-0" href="./gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a class="hover:text-sky-500  md:py-0 py-3 block md:inline-block rounded-md md:bg-transparent px-6 md:px-0" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <!-- hero  -->
+    <section class="hero-section flex justify-center flex-col">
+      <section class="container lg:px-40 mx-auto z-10 px-6">
+        <div class="my-44">
+            <div class=" text-center ">
+                <p class="mb-2 text-sky-600"> - Destinations - </p>
+                <h1 class=" text-4xl text-white font-semibold">Somewhere to explode</h1>
+            </div>
+        </div>
+      </section>
+
+    </section>
+     
+
+    <!-- content  -->
+
+
+    <section class="bg-gray-50 py-24 relative">
+      
+      <!-- destination section  -->
+      <div class="container lg:px-40 mx-auto flex items-center justify-center md:block px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./assets/img/sw.webp');">
+            <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                <div class="">
+                <div class="font-bold text-white text-xl mb-2">Sweden</div>
+                <p class="text-gray-200 text-base">sweden city</p>
+                <p class="text-gray-300 text-sm">Do you want to travel here, just click arrow.</p>
+                </div>
+                <a href="./otto/cities.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                </span>
+                </a>
+            </div>
+            </div>
+            
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./assets/img/iceland.webp');">
+            <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                <div class="">
+                <div class="font-bold text-white text-xl mb-2">Iceland</div>
+                <p class="text-gray-200 text-base">Iceland city</p>
+                <p class="text-gray-300 text-sm">Do you want to travel here, just click arrow</p>
+                </div>
+                <a href="./ven/iceland1.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                </span>
+                </a>
+            </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./garden/images/city.jpg');">
+            <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                <div class="">
+                <div class="font-bold text-white text-xl mb-2">South Korea</div>
+                <p class="text-gray-200 text-base">korea city</p>
+                <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                </div>
+                <a href="./garden/files/korean.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                </span>
+                </a>
+            </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./assets/img/norway.jpeg');">
+              <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                  <div class="">
+                  <div class="font-bold text-white text-xl mb-2">Norway</div>
+                  <p class="text-gray-200 text-base">Norway city</p>
+                  <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                  </div>
+                  <a href="./laven/home.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                  </span>
+                  </a>
+              </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('https://cff0b7c0.rocketcdn.me/wp-content/uploads/2023/09/cappadocia31-2048x1365.jpg.webp');">
+              <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                  <div class="">
+                  <div class="font-bold text-white text-xl mb-2">Turkey</div>
+                  <p class="text-gray-200 text-base">Turkey city</p>
+                  <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                  </div>
+                  <a href="./holly/Turkey.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                  </span>
+                  </a>
+              </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('https://media.timeout.com/images/105895418/1536/864/image.webp');">
+              <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                  <div class="">
+                  <div class="font-bold text-white text-xl mb-2">Japan</div>
+                  <p class="text-gray-200 text-base">Toyko city</p>
+                  <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                  </div>
+                  <a href="./john/index.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                  </span>
+                  </a>
+              </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./assets/img/img.png')">
+              <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                  <div class="">
+                  <div class="font-bold text-white text-xl mb-2">India</div>
+                  <p class="text-gray-200 text-base">india city</p>
+                  <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                  </div>
+                  <a href="./chue/india.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                  </span>
+                  </a>
+              </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./sharlex/egypt.jpg')">
+              <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                  <div class="">
+                  <div class="font-bold text-white text-xl mb-2">Egypt</div>
+                  <p class="text-gray-200 text-base">Egypt city</p>
+                  <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                  </div>
+                  <a href="./sharlex/egypt.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                  </span>
+                  </a>
+              </div>
+            </div>
+
+            <div class="hover:-translate-y-2 transition duration-300 ease-in-out popular-card w-full h-[420px] max-w-sm rounded-lg overflow-hidden flex items-end " style="background-image: url('./phoetote/USA.jpg')">
+              <div class="px-6 pb-6 flex items-end justify-between w-full z-10">
+                  <div class="">
+                  <div class="font-bold text-white text-xl mb-2">USA</div>
+                  <p class="text-gray-200 text-base">USA city</p>
+                  <p class="text-gray-300 text-sm">Do you want to travel here, just click here</p>
+                  </div>
+                  <a href="./phoetote/USA.html" class=" flex items-center justify-center w-20 h-10 text-white px-4 py-2 rounded-full hover:border hover:border-sky-600 hover:text-sky-500">
+                  <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                  </span>
+                  </a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+    </section>
+
+     <!-- footer  -->
+     <section>
+        <footer class="py-10">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex md:flex-row flex-col justify-between items-center space-y-4 md:space-y-0">
+              <!-- Logo and Name -->
+              <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold">Nest Nest</span>
+              </div>
+        
+              <!-- Navigation Links -->
+              <nav class="text-sm leading-6 font-medium text-slate-700 hidden md:block">
+                <ul class="flex md:space-x-8 flex-col md:flex-row rounded-lg ">
+                  <li>
+                    <a href="./index.html" class="text-sky-500 rounded-md">Home</a>
+                  </li>
+                  <li>
+                    <a href="./destinations.html" class="text-sky-500 rounded-md">Destinations</a>
+                  </li>
+                  <li>
+                    <a href="./about.html" class="text-sky-500 rounded-md">Members</a>
+                  </li>
+                  <li>
+                    <a class="text-sky-500 rounded-md" href="./gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a class="text-sky-500 rounded-md" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+        
+              <!-- Social Media Links -->
+              <div class="flex space-x-4">
+                <a href="#" class="hover:text-sky-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg>
+                </a>
+                <a href="#" class="hover:text-sky-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                  </svg>
+                </a>
+                
+              </div>
+            </div>
+        
+            <!-- Footer Bottom -->
+            <div class="mt-8 pt-4 text-center md:text-left">
+              <p class="text-gray-500">&copy; 2024 YourCompany. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+        
+      </section>
+</body>
+</html>
