@@ -39,15 +39,41 @@
                     font-size: larger;}
         
         
-        footer{background-color: cadetblue;
-          background-size: cover  ;
-          width: 100%; 
-          height: 10vw;
-          text-align: center;
-          color: #141515;
-          font-family: 'Times New Roman', Times, serif;
-          padding: 3vw;
-          font-size: 1vw;}
+     footer nav{
+  background-color: white;
+  width:100%;
+  height:50px;
+  display:flex;
+  align-items: center;
+ 
+}
+.Home-link{
+  display:flex;
+  align-item:center;
+  
+}
+.Home-link h1{
+  margin-left:50px;
+  margin-top:100px;
+  align-items:center;
+}
+.unorder ul{
+  list-style:none;
+  align-item:center;
+  display:flex;
+  justify-content:space-between;
+  margin-left:225px;
+  margin-right:225px;
+  padding-top:100px;
+}
+.unorder ul li {
+  margin:15px;
+}
+.unorder ul li a{
+ text-decoration:none;
+}
+ nav .company p {
+  padding-top:100px;
         </style>
 </head>
 <body>
@@ -112,7 +138,34 @@ The quality of life In Ankara ranks well compared to other major cities in Turke
       </section>
      
       <footer>
-      <h2>Quoting from Wikipedia</h2>
+      <nav>
+    <div class="Home-link">
+      <h1>Net Nest</h1>
+      </div>
+      <div class="unorder">
+      <ul class="link">
+        <li>
+          <a href="../index.html" title="this take you to get main website"class="home">Home</a>
+        </li>
+        <li>
+          <a href="../destinations.html" class="destination">Destinations</a>
+        </li>
+        <li>
+          <a href="../about.html" class="Member">Members</a>
+        </li>
+      <!-- <li>
+          <a class="gallery" href="./gallery.html">Gallery</a>
+        </li> -->
+        <li>
+          <a href="../contact.html" class="contact">Contact</a>
+        </li>
+      </ul>
+   </div> 
+
+  <div class="company">
+    <p class="text-gray-500">&copy; 2024 YourCompany. All rights reserved.</p>
+  </div>
+</nav>
       </footer>
         
 </body>
