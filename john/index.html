@@ -295,7 +295,7 @@ footer{
 .main h{
   font-weight: 400;
 }
-    .Home-link{
+    nav{
       display:flex;
       align-item:center;
       justify-content:space between;
@@ -303,13 +303,13 @@ footer{
       width:100%;
       height:40px;
     }
-    .Home-link ul{
+    nav ul{
       list-style:none;
       display:flex;
       align-item:center;
       justify-content:space between;
     } 
-   .Home-link ul li a{
+   nav ul li a{
       text-decoration: none;
      text-color: blue;
       align-item:center;
@@ -631,8 +631,8 @@ footer{
     <div class="main">
       <a href="#home"><h1>Go to home</h1></a>
     </div>
-        <div class="Home-link">
-              <nav >
+        <nav  class="Home-link">
+              <div>
                 <h1>Net Nest</h1>
                 <ul class="link">
                   <li>
@@ -665,15 +665,15 @@ footer{
                     <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
                   </svg>
                 </a>
-                </nav>
-              </div> -->
+                </div>
+             </div> -->
            
         
             <!-- Footer Bottom -->
-            <div class="mt-8 pt-4 text-center md:text-left">
+            <div class="company">
               <p class="text-gray-500">&copy; 2024 YourCompany. All rights reserved.</p>
             </div>
-          </div>
+          </nav>
       </footer>
 </body>
 </html>
